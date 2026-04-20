@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, monospace;
+  
+  /* Professional Polish Palette */
+  --color-surface: #F0F2F5; /* Background */
+  --color-surface-low: #FFFFFF; /* Containers */
+  --color-surface-high: #FAFAFA; /* Subtle backgrounds */
+  --color-surface-highest: #D9D9D9; /* Borders */
+  --color-primary: #1890FF;
+  --color-primary-hover: #40A9FF;
+  --color-error: #F5222D;
+  --color-success: #52C41A;
+  --color-sidebar-bg: #001529;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-[#1A1A1A] font-sans h-screen overflow-hidden;
+  }
+}
+
+.nav-item-active {
+  background: rgba(24, 144, 255, 0.2);
+  border-right: 3px solid var(--color-primary);
+  opacity: 1 !important;
+}
+
+.panel-title-bar {
+  border-left: 4px solid var(--color-primary);
+  padding-left: 8px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

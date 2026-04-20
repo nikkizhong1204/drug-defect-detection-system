@@ -1,0 +1,6 @@
+{
+  "name": "药品缺陷检测系统",
+  "description": "基于 React 的工业级药片实时检测与质量控制仪表盘，支持实时网格监控、异常拦截及审计日志。",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
