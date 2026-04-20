@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Drug Defect Detection System
 
-# Run and deploy your AI Studio app
+A web-based dashboard for real-time pharmaceutical defect inspection.
 
-This contains everything you need to run your app locally.
+## Features
+- Real-time inspection grid
+- Defect highlighting and status labeling
+- Production parameter panel
+- Inspection history table
+- Responsive single-page dashboard
 
-View your app in AI Studio: https://ai.studio/apps/5c1f9b55-9e59-4e30-8d88-7aca85d95c78
+## Tech Stack
+- React
+- TypeScript
+- Vite
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Project Goal
+This project is designed for pharmaceutical visual inspection scenarios, helping operators monitor pill defect status and inspection metrics in a clear dashboard interface.
