@@ -182,12 +182,6 @@ const GridCell: React.FC<GridCellProps> = ({ item }) => {
         </div>
       )}
       
-      <div className="absolute bottom-0 left-0 right-0 py-1 px-1.5 bg-black/50 backdrop-blur-[4px] flex justify-between items-center text-[9px] text-white font-mono font-bold">
-        <span className="opacity-80">#{item.id.split('-').pop()}</span>
-        <span className={isDefect ? 'text-red-300' : 'text-primary-bright'}>
-          {item.confidence.toFixed(1)}%
-        </span>
-      </div>
     </div>
   );
 };
